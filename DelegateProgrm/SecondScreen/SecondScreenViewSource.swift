@@ -1,5 +1,5 @@
 //
-//  FirstScreenViewSource.swift
+//  SecondScreenViewSource.swift
 //  DelegateProgrm
 //
 //  Created by Kirill Drozdov on 21.05.2022.
@@ -8,14 +8,13 @@
 import Foundation
 import UIKit
 
-class FirstScreenViewSource: UIView {
-
-
+class SecondScreenViewSource: UIView {
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .red
+        self.backgroundColor = .white
         labelTitileConstraint()
-        receivedDataLabelConstraint()
+        writeTextFieldConstraint()
         buttonPreviewsScreenConstraint()
     }
 
@@ -24,8 +23,7 @@ class FirstScreenViewSource: UIView {
     lazy var labelTitileScreenNumber: UILabel = {
         var name = UILabel()
         name.translatesAutoresizingMaskIntoConstraints = false
-        name.text = "FirstViewController"
-        name.backgroundColor = .blue
+        name.text = "SecondViewController"
         name.textAlignment = .center
         return name
     }()
@@ -40,30 +38,28 @@ class FirstScreenViewSource: UIView {
     }
 
 
-
-
-    // Второй label
-    lazy var receivedDataLabel: UILabel = {
-        var label = UILabel()
-        label.text = "BLA BLA"
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
-        return label
+    // Второй TextField
+    lazy var writeTextField: UITextField = {
+        var tf = UITextField()
+        tf.translatesAutoresizingMaskIntoConstraints = false
+        tf.textAlignment = .center
+        tf.layer.borderWidth = 2
+        tf.placeholder = "Enter text to be send back"
+        return tf
     }()
 
-    func receivedDataLabelConstraint(){
-        self.addSubview(receivedDataLabel)
+    func writeTextFieldConstraint(){
+        self.addSubview(writeTextField)
         NSLayoutConstraint.activate([
-            receivedDataLabel.topAnchor.constraint(equalTo: labelTitileScreenNumber.bottomAnchor, constant: 50),
-            receivedDataLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-            receivedDataLabel.rightAnchor.constraint(equalTo: rightAnchor)
+            writeTextField.topAnchor.constraint(equalTo: labelTitileScreenNumber.bottomAnchor, constant: 50),
+            writeTextField.leadingAnchor.constraint(equalTo: leadingAnchor,constant: 60),
+            writeTextField.rightAnchor.constraint(equalTo: rightAnchor,constant: -60)
         ])
     }
 
 
     // Третья кнопка
-    lazy var buttonPreviewsScreen: UIButton = {
+    lazy var buttonSendData: UIButton = {
         var button = UIButton(type: .system)
         button.setTitle("Get Data", for: .normal)
         button.backgroundColor = .blue
@@ -72,14 +68,18 @@ class FirstScreenViewSource: UIView {
     }()
 
     func buttonPreviewsScreenConstraint(){
-        self.addSubview(buttonPreviewsScreen)
+        self.addSubview(buttonSendData)
         NSLayoutConstraint.activate([
-            buttonPreviewsScreen.centerYAnchor.constraint(equalTo: centerYAnchor),
-            buttonPreviewsScreen.centerXAnchor.constraint(equalTo: centerXAnchor)
+            buttonSendData.centerYAnchor.constraint(equalTo: centerYAnchor),
+            buttonSendData.centerXAnchor.constraint(equalTo: centerXAnchor)
         ])
     }
+
+
+
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
 }
