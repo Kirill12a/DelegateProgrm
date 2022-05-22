@@ -26,3 +26,7 @@ SecondViewController
 storyboard
 
 ![image](https://user-images.githubusercontent.com/45273279/169700021-bfe5dac6-d5ca-47ac-b3c7-0976bbeee0b8.png)
+
+## через код
+
+<img width="1256" alt="image" src="https://user-images.githubusercontent.com/45273279/169720108-64d19b2a-b5eb-4f08-9a57-59e9ba68c92f.png">       fatalError("init(coder:) has not been implemented")
