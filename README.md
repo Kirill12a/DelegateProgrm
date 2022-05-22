@@ -34,5 +34,4 @@ storyboard
 
 первый vc
 
-<img width="857" alt="image" src="https://user-images.githubusercontent.com/45273279/169720161-8c506196-751a-4494-aa7d-368e763f0daa.png">
-
+<img width="857" alt="image" src="https://user-images.githubusercontent.com/45273279/169720235-71499ad3-35aa-4ff2-80ba-38ed903b04e0.png">
