@@ -29,4 +29,9 @@ storyboard
 
 ## через код
 
-<img width="1256" alt="image" src="https://user-images.githubusercontent.com/45273279/169720108-64d19b2a-b5eb-4f08-9a57-59e9ba68c92f.png">       
+настройка 1-го view
+<img width="1256" alt="image" src="https://user-images.githubusercontent.com/45273279/169720108-64d19b2a-b5eb-4f08-9a57-59e9ba68c92f.png"> 
+
+первый vc
+<img width="857" alt="image" src="https://user-images.githubusercontent.com/45273279/169720161-8c506196-751a-4494-aa7d-368e763f0daa.png">
+
