@@ -35,3 +35,7 @@ storyboard
 первый vc
 
 <img width="857" alt="image" src="https://user-images.githubusercontent.com/45273279/169720235-71499ad3-35aa-4ff2-80ba-38ed903b04e0.png">
+
+настройка 2-го view
+<img width="899" alt="image" src="https://user-images.githubusercontent.com/45273279/169720288-d15e85fd-58c2-4cd0-912b-46ca4de3c864.png">
+
