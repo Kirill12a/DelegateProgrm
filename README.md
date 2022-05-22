@@ -29,4 +29,4 @@ storyboard
 
 ## через код
 
-<img width="1256" alt="image" src="https://user-images.githubusercontent.com/45273279/169720108-64d19b2a-b5eb-4f08-9a57-59e9ba68c92f.png">       fatalError("init(coder:) has not been implemented")
+<img width="1256" alt="image" src="https://user-images.githubusercontent.com/45273279/169720108-64d19b2a-b5eb-4f08-9a57-59e9ba68c92f.png">       
