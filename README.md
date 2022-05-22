@@ -24,4 +24,5 @@ SecondViewController
 <img width="899" alt="image" src="https://user-images.githubusercontent.com/45273279/169699990-eafaeaf7-285d-4239-9163-b3e0a3f2a4f8.png">
 
 storyboard
+
 ![image](https://user-images.githubusercontent.com/45273279/169700021-bfe5dac6-d5ca-47ac-b3c7-0976bbeee0b8.png)
