@@ -39,3 +39,8 @@ storyboard
 настройка 2-го view
 <img width="899" alt="image" src="https://user-images.githubusercontent.com/45273279/169720288-d15e85fd-58c2-4cd0-912b-46ca4de3c864.png">
 
+второй vc
+
+<img width="1046" alt="image" src="https://user-images.githubusercontent.com/45273279/169720357-807fcfd3-4853-4af1-95d5-f53449ba953b.png">
+
+
