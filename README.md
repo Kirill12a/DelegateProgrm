@@ -44,4 +44,8 @@ storyboard
 
 <img width="1046" alt="image" src="https://user-images.githubusercontent.com/45273279/169720357-807fcfd3-4853-4af1-95d5-f53449ba953b.png">
 
+## через код для MVC
+![Снимок экрана 2022-06-16 в 10 21 06 PM](https://user-images.githubusercontent.com/45273279/174148637-3cb416be-e07e-4977-a8fe-4e199e43ebdd.png)
+
+![Снимок экрана 2022-06-16 в 10 21 45 PM](https://user-images.githubusercontent.com/45273279/174148705-d32e89d8-1885-48c8-b54e-1d2a0476ef27.png)
 
